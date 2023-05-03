@@ -9,12 +9,13 @@ public class Interactable : MonoBehaviour
     public bool isInRange;
     public Button interactButton;
     public UnityEvent interactAction;
-    public Image image;
-
+    public GameObject Minigame;
     // Start is called before the first frame update
     void Start()
     {
         interactButton.enabled = false;
+        Minigame.SetActive(false);
+        interactButton.onClick.AddListener(ShowMinigame);
     }
 
     // Update is called once per frame
@@ -39,5 +40,9 @@ public class Interactable : MonoBehaviour
             interactButton.enabled = false;
             Debug.Log("Player now not in range");
         }
+    }
+
+    private void ShowMinigame() {
+        Minigame.SetActive(true);
     }
 }
