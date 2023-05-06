@@ -10,8 +10,9 @@ GameObject:
   m_Component:
   - component: {fileID: 3005719367473673342}
   - component: {fileID: 5251434316650638998}
+  - component: {fileID: 6969049889446968758}
   m_Layer: 0
-  m_Name: InteractCircle
+  m_Name: CutSceneInteractable
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -48,3 +49,17 @@ CircleCollider2D:
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
   m_Radius: 0.5
+--- !u!114 &6969049889446968758
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3416905565451361292}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7512e529fe3d9d047bda0105fe3fd96f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isInRange: 0
+  interactButton: {fileID: 0}

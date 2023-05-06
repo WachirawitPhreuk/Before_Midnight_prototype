@@ -5,18 +5,11 @@ using UnityEngine.SceneManagement;
 
 public class WorkSceneManager : MonoBehaviour
 {
-    private int progress;
+    public int progress = 0;
     
-    // Start is called before the first frame update
-    void Start()
-    {
-        progress = 0;
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        if(progress >= 100) {
+    public void MinigameDone (int gameDone) {
+        progress = progress + gameDone;
+        if(progress == 3) {
             SceneManager.LoadScene(3);
         }
     }
