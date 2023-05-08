@@ -1,10 +1,10 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.SceneManagement;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
-public class InteractToCutScene : MonoBehaviour
+public class CutBackToMain : MonoBehaviour
 {
     public bool isInRange;
     public Button interactButton;
@@ -40,6 +40,6 @@ public class InteractToCutScene : MonoBehaviour
     }
 
     private void CutScene() {
-        SceneManager.LoadScene(5);
+        SceneManager.LoadScene(1);
     }
 }

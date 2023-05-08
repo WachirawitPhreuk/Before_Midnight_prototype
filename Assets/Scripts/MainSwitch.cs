@@ -22,6 +22,7 @@ public class MainSwitch : MonoBehaviour
         {
             wsm.MinigameDone(1);
             theSwitch.SetActive(false);
+            Destroy(theSwitch);
         }
     }
 }

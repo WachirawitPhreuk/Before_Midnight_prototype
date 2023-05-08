@@ -9,7 +9,7 @@ public class WorkSceneManager : MonoBehaviour
     
     public void MinigameDone (int gameDone) {
         progress = progress + gameDone;
-        if(progress == 3) {
+        if(progress == 2) {
             SceneManager.LoadScene(3);
         }
     }
