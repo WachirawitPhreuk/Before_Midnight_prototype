@@ -12,6 +12,8 @@ public class Decrease : MonoBehaviour
         if (troops.count > 0)
         {
             troops.count = troops.count-6;
+            troops.BigGuy -= 6;
+            troops.BigMen.text = troops.BigGuy.ToString();
         }
     }
 
@@ -20,6 +22,8 @@ public class Decrease : MonoBehaviour
         if (troops.count > 0) 
         {
         troops.count = troops.count-1;
+        troops.SmallGuy -= 1;
+        troops.SmallMen.text = troops.SmallGuy.ToString();
         }
     }
 }

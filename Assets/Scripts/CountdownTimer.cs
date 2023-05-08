@@ -20,10 +20,10 @@ public class CountdownTimer : MonoBehaviour
     void Update()
     {
         currentTime -= Time.deltaTime;
-        countdownText.text = currentTime.ToString();
+        countdownText.text = currentTime.ToString("0.0");
 
         if(currentTime <= 0) {
-            SceneManager.LoadScene(3);
+            SceneManager.LoadScene(4);
         }
     }
 }

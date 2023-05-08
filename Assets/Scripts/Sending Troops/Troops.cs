@@ -12,12 +12,15 @@ public class Troops : MonoBehaviour
     public WorkSceneManager wsm;
     public GameObject troopsSending;
 
-    public void MainTroops(int full) {
-    count = count + full;
+    public int BigGuy=0;
+    public int SmallGuy=0;
+
+    public void Update() {
     if(count == 15) 
     {
         wsm.MinigameDone(1);
         troopsSending.SetActive(false);
+        count = 0;
         Destroy(troopsSending);
     }
     }
