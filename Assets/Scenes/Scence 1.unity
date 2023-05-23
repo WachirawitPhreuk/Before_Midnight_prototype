@@ -298,7 +298,7 @@ RectTransform:
   m_GameObject: {fileID: 122394751}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1.769, y: 1.769, z: 1.769}
+  m_LocalScale: {x: 1.4716746, y: 1.4716746, z: 1.4716746}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 692063290}
@@ -307,7 +307,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -354.8, y: -181.63}
+  m_AnchoredPosition: {x: -305.23, y: -202}
   m_SizeDelta: {x: 83.6207, y: 71.83}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &122394753
@@ -1404,7 +1404,7 @@ RectTransform:
   m_GameObject: {fileID: 1333993886}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1.769, y: 1.769, z: 1.769}
+  m_LocalScale: {x: 1.4562585, y: 1.4562585, z: 1.4562585}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 15681915}
@@ -1413,7 +1413,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0.16181, y: 208.38}
+  m_AnchoredPosition: {x: 0.16181, y: 229}
   m_SizeDelta: {x: 642.1087, y: 44.6348}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1333993888
@@ -1539,7 +1539,7 @@ RectTransform:
   m_GameObject: {fileID: 1366978019}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1.769, y: 1.769, z: 1.769}
+  m_LocalScale: {x: 1.4716746, y: 1.4716746, z: 1.4716746}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 991727687}
@@ -1548,7 +1548,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -530.37, y: -181.63}
+  m_AnchoredPosition: {x: -451.29, y: -202}
   m_SizeDelta: {x: 83.6243, y: 71.83}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1366978021
@@ -1931,7 +1931,7 @@ RectTransform:
   m_GameObject: {fileID: 1662631052}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1.769, y: 1.769, z: 1.769}
+  m_LocalScale: {x: 1.4716746, y: 1.4716746, z: 1.4716746}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1532012938}
@@ -1940,7 +1940,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 542.07, y: -173.37}
+  m_AnchoredPosition: {x: 440.88, y: -195.12997}
   m_SizeDelta: {x: 99.3683, y: 81.175}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1662631054
@@ -2090,7 +2090,7 @@ RectTransform:
   m_GameObject: {fileID: 2010896251}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1.769, y: 1.769, z: 1.769}
+  m_LocalScale: {x: 1.4716746, y: 1.4716746, z: 1.4716746}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 416277909}
@@ -2098,7 +2098,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 84.224, y: -181.63}
+  m_AnchoredPosition: {x: 60, y: -202}
   m_SizeDelta: {x: 352.5582, y: 65.6477}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &2094617754
@@ -2178,7 +2178,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2094617754}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -11.16, y: 0.2106018, z: 0}
+  m_LocalPosition: {x: -8.38, y: 0.2106018, z: 0}
   m_LocalScale: {x: 0.897241, y: 4.3228602, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -2316,7 +2316,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5676841027851863865, guid: 09ec7b8dc7a41f948b1b2ee6cb7542f6, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -7.65
+      value: -5
       objectReference: {fileID: 0}
     - target: {fileID: 5676841027851863865, guid: 09ec7b8dc7a41f948b1b2ee6cb7542f6, type: 3}
       propertyPath: m_LocalPosition.y
